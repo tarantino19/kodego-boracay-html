@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boracay</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .header {
+        padding-top: 10px;
+      }
+
+      h1 {
+        font-size: 4rem;
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color: #e6fcf5;
+      }
+
+      h2 {
+        margin-top: 20px;
+      }
+
+      .menu {
+        background-color: #63e6be;
+        font-size: 20px;
+        padding: 20px;
+      }
+
+      a:hover {
+        color: black;
+      }
+
+      .menu a {
+        margin: 0 10px;
+      }
+
+      .nav-menu {
+        background-color: #63e6be;
+        width: 60%;
+        text-align: center;
+      }
+
+      .form {
+        margin-top: 54px;
+      }
+
+      .form-table {
+        padding: 20px 40px;
+      }
+
+      .submit {
+        background-color: #63e6be;
+        padding: 5px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .footer-menu {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        width: 60%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <center>
+    <body>
+      <div class="container">
+        <div class="header" style="background-color: #38d9a9">
+          <img
+            src="images/boracay.png"
+            width="100"
+            height="100"
+            alt="boracay-logo"
+          />
+          <br />
+          <h1>❤️ It's More Fun In Boracay! ❤️</h1>
+        </div>
+        <!-- header closing div  -->
+
+        <div class="menu">
+          <table name="nav-menu" class="nav-menu">
+            <tr>
+              <td><a href="/boracay/index.html">Home</a></td>
+              <td><a href="/boracay/history.html">History</a></td>
+              <td><a href="/boracay/activities.html">Activities</a></td>
+              <td><a href="/boracay/visitus.html">Visit Us!</a></td>
+            </tr>
+          </table>
+        </div>
+
+        <h2>Sign Up, Visit Boracay, and Meet the Love of Your Life!</h2>
+  
+          <form class="form">
+            <table class="form-table" id="form-table" style="border: 2px black solid">
+              <thead>
+                <th colspan="2">WE NEED YOUR INFO 😌 </th>
+              </thead>
+              <tr>
+                <td>FIRST NAME:</td>
+                <td><input type="text" name="fname" id="fname" /></td>
+              </tr>
+              <tr>
+                <td>LAST NAME:</td>
+                <td><input type="text" name="lname" id="lname" /></td>
+              </tr>
+              <tr>
+                <td>AGE:</td>
+                <td><input type="number" name="age" id="age" min="18" max="65"/></td>
+              </tr>
+              <tr>
+                <td>BIRTH DATE:</td>
+                <td><input type="date" name="birthdate" id="birthdate" /></td>
+              </tr>
+              <tr>
+                <td>GENDER:</td>
+                <td>
+                  <select name="gender" id="gender">
+                    <option value="male">MALE</option>
+                    <option value="female">FEMALE</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>COVID VAX ID PICTURE:</td>
+                <td><input type="file" name="pic" id="pic" /></td>
+              </tr>
+              <tr>
+                <td>TELL US ABOUT YOURSELF:</td>
+                <td>
+                  <textarea
+                    name="aboutself"
+                    id="aboutself"
+                    cols="20"
+                    rows="5"
+                  ></textarea>
+                </td>
+                <tr>
+                  <td>Do you want us to help you find a blind date?</td>
+                  <td>
+                    <label for="radio-yes">YES</label>
+                     <input type="radio" name="radio" value="radio-yes">
+                     <label for="radio">NO</label>
+                     <input type="radio" name="radio" value="radio-no">
+                  </td>
+                  <tr>
+                    
+                  </tr>
+                </tr>
+                <tr>
+                  <tr>
+                    <td>TELL US ABOUT YOUR TYPE?</td>
+                    <td>
+                      <textarea
+                        name="aboutself"
+                        id="aboutself"
+                        cols="20"
+                        rows="5"
+                      ></textarea>
+                    </td>
+                    <tr>
+                  <td>If you click submit, you might end up being in a loving relationship 😜 </td>
+                  <td><input type="submit" name="submit" class="submit" value="Submit"></td>
+                </tr>
+                <tr>
+                </tr>
+              </tr>
+              
+            </table>
+          </form>
+        </div>
+
+        <!-- menu  closing div  -->
+      </div>
+      <!-- main container closing div  -->
+    </body>
+
+    <table class="footer-menu">
+      <tr class="footer">
+        <td id="contact">
+          <a href="gmail.com">Email us: boracayph@gmail.com</a>
+        </td>
+        <td id="fb">
+          <a href="www.facebook.com/boracay">Follow Us On Facebook</a>
+        </td>
+        <td id="ig">
+          <a href="www.instagram.com/boracay">Follow Us On Instagram</a>
+        </td>
+      </tr>
+    </table>
+  </center>
+</html>
